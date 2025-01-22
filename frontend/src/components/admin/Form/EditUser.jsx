@@ -84,7 +84,7 @@ const EditUser = () => {
                     timerProgressBar: true,
                     showConfirmButton: false,
                 }).then(() => {
-                   navigate('/admin/user');
+                //    navigate('/admin/user');
                 });
             } else {
                 setError('Error updating user');
